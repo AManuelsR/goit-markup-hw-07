@@ -1,0 +1,63 @@
+.contenedor__clientes{
+    width: 1200px;
+    height: 350px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+
+    &--enclientesub{
+        width: 100%;
+        height: 50px;
+        text-align: center;
+        font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+        padding-top: 70px;
+        padding-bottom: 100px;
+
+        &:hover{
+            text-decoration-line: underline;
+            text-decoration-style: solid;
+            text-decoration-color: #2196F3;
+            transition: cubic-bezier(0.4, 0, 0.2, 1);
+        }
+    }
+
+    &--frecuentes{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &--recurrentes{
+        width: 180px;
+        height: 81px;
+        display: inline-block;
+        margin: 0 5px;
+        border-radius: 4px;
+    }
+
+    &--recurrentes1{
+        &:hover{
+            border: solid 2px #2196F3;
+            border-radius: 4px;
+            transition: cubic-bezier(0.4, 0, 0.2, 1);    
+        }
+    }
+
+    &--recurrentes11{
+        &:hover{
+            fill: #2196F3;
+            stroke: #2196F3;
+            background: white;
+            transition: cubic-bezier(0.4, 0, 0.2, 1);   
+        }
+    }
+    
+
+
+}

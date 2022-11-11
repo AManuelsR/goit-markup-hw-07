@@ -1,0 +1,35 @@
+
+.menu{
+    font-family: 'Raleway';
+    width: 1200px;
+    height: 80px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+
+    &__principal--logo{
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: bold;
+        
+    }
+
+    &__principal--nav,
+    &__secundario--div{
+        text-decoration: none;
+        font-family: 'Roboto';
+        font-weight: bold;
+        font-size: 14px;
+        margin-left: 20px;
+        margin-right: 20px;
+        letter-spacing: 0.02em;
+        
+        &:hover{
+            border-bottom: #2196F3;
+            color: #2196F3;
+            transition: cubic-bezier(0.4, 0, 0.2, 1);            
+        }
+    }
+}

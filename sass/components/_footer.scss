@@ -1,0 +1,184 @@
+.contenedor__pie{
+    border: 0;
+    margin: 0 auto;
+    padding: 0;    
+    width: 1600px;
+    height: 250px;
+    background: #2F303A;
+    font-family: 'Roboto';
+    padding-top: 50px;
+
+    &--final{
+        width: 1200px;  
+        margin: 0 auto;
+        box-sizing: border-box;    
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &--direccion{
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        padding-left: 10px;
+        justify-content: left;
+        padding: 10px;
+    }
+
+    &--logo{
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        letter-spacing: 0.03em;
+        color: #2196F3;
+        margin-bottom: 10px;
+        margin-left: 10px;        
+
+        &:hover{
+            text-decoration-line: underline;
+            text-decoration-style: solid;
+            text-decoration-color: #2196F3;
+            transition: cubic-bezier(0.4, 0, 0.2, 1);
+        }
+    }
+
+    &--direccion2{
+        margin-left: 10px;
+        width: 231px;
+        text-align: justify;
+        color: #fff;
+        margin-bottom: 10px;
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+
+        &:hover{
+            text-decoration-line: underline;
+            text-decoration-style: solid;
+            text-decoration-color: #2196F3;
+            transition: cubic-bezier(0.4, 0, 0.2, 1);
+        }
+    }
+
+    &--redsocial{
+        width: 220px;
+        margin-left: 10px;
+        text-align: center;
+    }
+
+    &--texto{
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    &--subtitulo{
+        font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+        &:hover{
+            text-decoration-line: underline;
+            text-decoration-style: solid;
+            text-decoration-color: #2196F3;
+            transition: cubic-bezier(0.4, 0, 0.2, 1);
+        }
+    }
+
+    &--icono{
+        display: inline-flex;
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+    }
+
+    &--red{
+        color: #fff;
+        padding: 15px;
+        height: 50px;
+        width: 50px;
+        display: block;    
+        background: rgba(255, 255, 255, 0.1);
+        text-align: center;
+        border-radius: 50%;
+        z-index: 2;
+        box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+
+        &:hover{
+            background: #2196F3;
+            transition: cubic-bezier(0.4, 0, 0.2, 1);
+            font-size: 25px;
+        }
+    }
+
+    &--boletin{
+        margin-top: 20px;
+        width: 600px;
+        padding-left: 10px;
+        color: #FFFFFF;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+
+    }
+
+    &--boletininfo{
+        margin-bottom: 20px;
+
+        &:hover{
+            text-decoration-line: underline;
+            text-decoration-style: solid;
+            text-decoration-color: #2196F3;
+            transition: cubic-bezier(0.4, 0, 0.2, 1);
+        }
+    }
+
+    &--correo{
+        width: 358px;
+        height: 50px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        background: none;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+        border-radius: 4px;
+        font-size: 16px;
+        padding-left: 20px;
+        letter-spacing: 0.03em;
+    }
+
+    &--enviar{
+        margin-left: 12px;
+        width: 200px;
+        height: 50px;
+        background: #2196F3;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        font-size: 16px;
+        letter-spacing: 0.06em;
+        color: #FFFFFF;
+        font-weight: bold;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+
+        &:hover{
+            border: 1px solid #2196F3;
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+            stroke: #2196F3;
+            transition: cubic-bezier(0.4, 0, 0.2, 1);
+        }
+    }
+
+
+}

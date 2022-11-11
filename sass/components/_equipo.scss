@@ -1,0 +1,162 @@
+.contenedor__equipo{
+    width: 1600px;
+    height: 708px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background: #F5F4FA;
+    margin-top: 50px;
+
+    &--subtit{
+        margin-bottom: 50px;
+        margin-top: 50px;
+
+    }
+
+    &--subtitulo{
+        width: 100%;
+        height: 42px;
+        font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+        
+        &:hover{
+            text-decoration-line: underline;
+            text-decoration-style: solid;
+            text-decoration-color: #2196F3;
+            transition: cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+    }
+
+    &--grup{
+        display: flex;
+        justify-content: space-around;
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+
+   
+    &--grupo{
+        margin: 5px;
+        display: inline-block;
+        background: #FFFFFF;
+        border-radius: 4px;
+        border-radius: 0px 0px 4px 4px;
+        place-items: center;
+        width: 270px;
+        height: 428px;
+        overflow: hidden;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+
+        &:hover{
+            border: solid 3px #2196F3;
+            transition: cubic-bezier(0.4, 0, 0.2, 1);
+        }
+    }
+
+    &--img{
+        margin: 0;
+        padding: 0;
+        width: 270px;
+        height: 260px;
+
+        &:hover{
+            border: solid 3px #2196F3;
+            transition: cubic-bezier(0.4, 0, 0.2, 1);
+        }
+    }
+
+    &--nombre{
+        
+        font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+        width: 100%;
+        height: 19px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+        &:hover{
+            text-decoration-line: underline;
+            text-decoration-style: solid;
+            text-decoration-color: #2196F3;
+            transition: cubic-bezier(0.4, 0, 0.2, 1);
+        }
+    }
+
+    &--empleo{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #757575;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+        &:hover{
+            text-decoration-line: underline;
+            text-decoration-style: solid;
+            text-decoration-color: #2196F3;
+            transition: cubic-bezier(0.4, 0, 0.2, 1);
+        }
+    }
+
+    &--redsocial{
+        
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        padding-top: 10px;
+    }
+
+    &--redes{
+        width: 44px;
+        height: 44px;
+        background: #FFFFFF;
+        border-radius: 50%;
+        cursor: pointer;
+        display: inline-block;
+        margin: 0 auto;
+
+        &:hover{
+            border: solid 3px #2196F3;
+            transition: cubic-bezier(0.4, 0, 0.2, 1);
+            padding: 8px;
+            background: #2196F3;
+            
+        }
+    }
+
+    &--social{
+        padding: 0;
+        margin: 0;
+    }
+
+    &--icono{
+        font-size: 20px;
+        line-height: 40px;
+        text-align: center;
+        color: #AFB1B8;
+
+        &:hover{
+            
+            transition: cubic-bezier(0.4, 0, 0.2, 1);
+            color: #FFFFFF;
+            
+        }
+    }
+
+}

@@ -1,0 +1,64 @@
+
+.menu{
+    width: 1200px;
+    height: 80px;
+    margin: 0 auto;
+    font-family: 'Roboto';
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    &__principal{
+        
+        color: #212121;
+        
+
+        &--logo{
+            width: 145px;
+            height: 31px;
+            
+            font-size: 26px;
+            font-family: 'Raleway';
+            font-weight: bold;
+        }
+        
+        &--nav{
+            font-weight: bold;
+            font-size: 14px;
+            margin-left: 20px;
+            margin-right: 20px;
+
+            &:hover{
+                border-bottom: 2px solid #2196F3;
+                color: #2196F3;
+                transition: cubic-bezier(0.4, 0, 0.2, 1);
+            }
+        }
+        
+
+    }
+
+    &__secundario{
+        
+        display: flex;
+        
+
+        &--div{
+            font-weight: bold;
+            font-size: 14px;            
+            color: #212121;            
+            height: 16px;
+            font-weight: 500;
+            font-size: 14px;
+            letter-spacing: 0.02em;            
+            margin-left: 20px;
+            font-weight: bold;
+
+            &:hover{
+                border-bottom: 2px solid #2196F3;
+                color: #757575;
+                transition: cubic-bezier(0.4, 0, 0.2, 1);
+            }
+        }
+    }
+}

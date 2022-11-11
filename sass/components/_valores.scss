@@ -1,0 +1,71 @@
+.contenedor__valores{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+
+    &--valor{
+        width: 270px;
+        padding: 10px;
+        margin: 5px;
+        text-align: center;
+        overflow: hidden;
+    }
+
+    &--atencion{
+        width: 260px;
+        height: 120px;
+        background-color: #F5F4FA;
+        border-radius: 4px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        overflow: hidden;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        
+        &:hover{
+            border: solid 3px #2196F3;
+            transition: cubic-bezier(0.4, 0, 0.2, 1);
+        }
+    }
+
+    &--subtit{
+        font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #212121;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    &--text{
+        text-align: justify;
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: #757575;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    &--atencion-1-1:hover{    
+        fill: #2196F3;
+        stroke: blue; 
+        transition: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    &--subtit:hover{
+        text-decoration-line: underline;
+        text-decoration-style: solid;
+        text-decoration-color: #2196F3;
+        transition: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+}
